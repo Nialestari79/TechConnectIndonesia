@@ -1,0 +1,139 @@
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #eeeeee;
+    color: #04165d;
+}
+
+header {
+    background-color: #061274;
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+}
+
+.logo {
+    width: 100px;
+    height: auto;
+    vertical-align: middle;
+}
+
+.header-container h1 {
+    display: inline-block;
+    margin: 0;
+}
+
+.tagline {
+    font-size: 1.2em;
+    margin-top: 10px;
+}
+
+nav {
+    background-color: #09042f;
+    padding: 10px 0;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav a:hover {
+    background-color: #72b7fc;;
+    color:#04165d
+}
+
+main {
+    margin: 20px;
+}
+
+h2 {
+    color: #050229;
+}
+
+form {
+    background-color: white;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    max-width: 500px;
+    margin: 20px auto;
+}
+
+form label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+form input, form select {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #000c73;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #1c2a33;
+}
+
+.tooltip {
+    display: none;
+    position: absolute;
+    background-color: #ff6b6b;
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+    top: 30px;
+    right: 30px;
+}
+
+footer {
+    background-color: #061274;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+footer p {
+    margin: 5px 0;
+}
+
+.logo:hover {
+    transform: rotate(360deg);
+    transition: transform 1s ease;
+}
+
+@media (max-width: 768px) {
+    main {
+        flex-direction: column;
+    }
+}

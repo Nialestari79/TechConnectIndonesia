@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Daftar Menjadi Anggota TechConnect Indonesia</title>
+    <link rel="stylesheet" href="style.css">
+    <script defer src="script.js"></script> 
+</head>
+<body>
+
+    <header>
+        <div class="header-container">
+            <img src="logo.png" alt="TechConnect Indonesia Logo" class="logo">
+            <h1>Daftar Menjadi Anggota TechConnect Indonesia</h1>
+            <p class="tagline">Jadilah bagian dari komunitas yang mendukung Anda untuk terus belajar, berkembang, dan berinovasi di dunia teknologi. Bergabunglah sekarang dan akses berbagai manfaat yang kami tawarkan.</p>
+        </div>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About Us</a></li>
+            <li><a href="programs.html">Programs</a></li>
+            <li><a href="join.html">Join Us</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+    </nav>
+
+    <main>
+        <section id="join-form">
+            <h2>Formulir Pendaftaran</h2>
+            <form id="registrationForm">
+                <label for="name">Nama Lengkap:</label>
+                <input type="text" id="name" name="name" placeholder="Masukkan nama lengkap Anda" required>
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" placeholder="Masukkan email Anda" required>
+
+                <label for="phone">Nomor Telepon:</label>
+                <input type="tel" id="phone" name="phone" placeholder="Masukkan nomor telepon Anda" required>
+
+                <label for="interest">Minat Utama:</label>
+                <select id="interest" name="interest" required>
+                    <option value="">Pilih minat Anda</option>
+                    <option value="teknologi">Teknologi</option>
+                    <option value="startup">Startup</option>
+                    <option value="ai">Kecerdasan Buatan (AI)</option>
+                    <option value="blockchain">Blockchain</option>
+                </select>
+
+                <label for="reason">Alasan Bergabung:</label>
+                <textarea id="reason" name="reason" placeholder="Tulis alasan Anda bergabung" required></textarea>
+
+                <button type="submit">Daftar Sekarang</button>
+            </form>
+
+            <div id="successMessage" class="success-message">
+                <p>Terima kasih telah mendaftar! Kami akan menghubungi Anda melalui email untuk informasi lebih lanjut.</p>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 TechConnect Indonesia. All rights reserved.</p>
+        <p>Contact us: info@techconnect.id | +62 812 3456 7890</p>
+    </footer>
+
+</body>
+</html>
